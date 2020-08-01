@@ -1,0 +1,7 @@
+@import 'base/reset', 'base/typography';
+@import 'abstracts/functions', 'abstracts/mixins', 'abstracts/placeholders', 'abstracts/variable';
+@import 'components/buttons', 'components/carousel', 'components/cover', 'components/dropdown';
+@import 'layout/footer', 'layout/forms', 'layout/grid', 'layout/header', 'layout/navigation', 'layout/navigation';
+@import 'pages/contact', 'pages/home', 'pages/blog';
+@import 'vendors/bootstrap-4.5.0/bootstrap.scss';
+@import 'themes/admin', 'themes/theme';

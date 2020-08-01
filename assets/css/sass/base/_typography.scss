@@ -1,0 +1,11 @@
+//fonts
+$primary-font: 'Roboto', sans-serif;
+$display-font: 'Playfair Display', serif;
+
+/* Base Typography*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: $display-font;
+   }
+p{
+    font-family: $primary-font;
+}

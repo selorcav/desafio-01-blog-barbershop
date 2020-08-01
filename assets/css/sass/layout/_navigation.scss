@@ -1,0 +1,49 @@
+nav.navbar{
+    background-color: $eerie-black;
+    line-height: 50px;
+    .nav-logo { 
+        height: 35px;
+    }   
+    .nav-item__active{
+        color: $ruddy-pink !important;
+    }
+    .hamburger-menu{
+        font-size: 1.5em;
+    }  
+    .nav-item{
+        a{
+            font-family: $primary-font;
+            transition: .3s;
+            &:hover{
+                color: $ruddy-pink !important;
+            }
+        }
+    }   
+}
+.blog-navigation{
+    background-color: $light-gray;
+    .pagination{
+        .pagination-item{
+            color: $nickel;
+            transition: .3s;
+            &:hover{
+                background-color: $nickel;
+                color: $white;
+            }
+        }
+        .pagination-item__previous{
+            border-top-left-radius: 40px !important;
+            border-bottom-left-radius: 40px !important;
+        }
+        .pagination-item__next{
+            border-top-right-radius: 40px !important;
+            border-bottom-right-radius: 40px !important;
+        }
+        .pagination-item__active{
+            background-color: $nickel;
+            color: $white;
+        }
+    }
+}
+
+    
